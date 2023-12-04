@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hospital</name>
+    </assembly>
+    <members>
+        <member name="M:Hospital.Controllers.AppointmentController.GetAppointmentByIdAysnc(System.Int32)">
+            <summary>
+            Get Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AppointmentController.DeleteAppointmentByIdAysnc(System.Int32)">
+            <summary>
+            Delete Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AppointmentController.UpdateAppointmentByIdAysnc(System.Int32,Dtos.ServiceDto.AppointmentDto)">
+            <summary>
+            Update Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AppointmentController.AddAppointmentAysnc(Dtos.ServiceDto.AppointmentDto)">
+            <summary>
+            Add Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AppointmentController.GetAllAsync">
+            <summary>
+            GetAll Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AppointmentController.GetAllByDateAsync(System.DateTime)">
+            <summary>
+            GetAllByDate Appointement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AuthonticationController.RegisterAsync(Dtos.Jwt.RegisterDto)">
+            <summary>
+            New Account
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AuthonticationController.LoginAsync(Dtos.Jwt.LoginDto)">
+            <summary>
+            Login Again
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AuthonticationController.AddToRoleAysnc(Dtos.Jwt.AddRoleDto)">
+            <summary>
+            Add To Role
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AuthonticationController.RefreshTokenAysnc">
+            <summary>
+            New Refresh-Token
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.AuthonticationController.RevokeTokenAysnc">
+            <summary>
+            Revoke-Token
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.GetDoctorByIdAysnc(System.Int32)">
+            <summary>
+            Get Doctor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.AddDoctorToSchduleAsync(System.Int32,System.Int32)">
+            <summary>
+            Add Doctor To Schdule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.DoctorViewHistoryAsync(System.Int32)">
+            <summary>
+            Doctor View History
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.GetAppointmentsDoctorByIdAsync(System.Int32)">
+            <summary>
+            Get Appointments Doctor By Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.DeleteDoctorByIdAysnc(System.Int32)">
+            <summary>
+            Delete Doctor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.UpdateDoctorByIdAysnc(System.Int32,Dtos.ServiceDto.DoctorDto)">
+            <summary>
+            Update Doctor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.AddDoctorAysnc(Dtos.ServiceDto.DoctorDto)">
+            <summary>
+            Add Doctor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.DoctorController.GetAllByAsync">
+            <summary>
+            GetAll Doctor
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.GetMedicalHistoryByIdAysnc(System.Int32)">
+            <summary>
+            Get MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.DeleteMedicalHistoryByIdAysnc(System.Int32)">
+            <summary>
+            Delete MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.UpdateMedicalHistoryByIdAysnc(System.Int32,Dtos.ServiceDto.MedicalHistoryDto)">
+            <summary>
+            Update MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.AddMedicalHistoryAysnc(Dtos.ServiceDto.MedicalHistoryDto)">
+            <summary>
+            Add MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.GetAllAsync">
+            <summary>
+            GetAll MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.MedicalHistoryController.GetAllByDateAsync(System.DateTime)">
+            <summary>
+            GetAllByDate MedicalHistory
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.PatientController.GetPatientByIdAysnc(System.Int32)">
+            <summary>
+            Get Patient
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.PatientController.DeletePatientByIdAysnc(System.Int32)">
+            <summary>
+            Delete Patient
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.PatientController.UpdatePatientByIdAysnc(System.Int32,Dtos.ServiceDto.PatientDto)">
+            <summary>
+            Update Patient
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.PatientController.AddPatientAysnc(Dtos.ServiceDto.PatientDto)">
+            <summary>
+            Add Patient
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.PatientController.GetAllByAsync">
+            <summary>
+            GetAll Patient
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.GetScheduleByIdAysnc(System.Int32)">
+            <summary>
+            Get Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.DeleteScheduleByIdAysnc(System.Int32)">
+            <summary>
+            Delete Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.UpdateScheduleByIdAysnc(System.Int32,Dtos.ServiceDto.ScheduleDto)">
+            <summary>
+            Update Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.AddScheduleAysnc(Dtos.ServiceDto.ScheduleDto)">
+            <summary>
+            Add Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.GetAllAsync">
+            <summary>
+            GetAll Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Hospital.Controllers.SchedulesController.GetAllByDateAsync(System.DateTime)">
+            <summary>
+            GetAllByDate Schedule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Hospital.Program">
+            <summary>
+            Program
+            </summary>
+        </member>
+        <member name="M:Hospital.Program.Main(System.String[])">
+            <summary>
+            Main
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>

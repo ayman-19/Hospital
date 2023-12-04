@@ -1,0 +1,18 @@
+﻿using Domain.Models;
+using Infrastructure.DbContext;
+using Infrastructure.IRepositories;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Infrastructure.Repositories
+{
+    public class DoctorsHaveSchedulesRepository : Repository<DoctorsHaveSchedules>, IDoctorsHaveSchedulesRepository
+	{
+		public DoctorsHaveSchedulesRepository(HospitalDbContext context) : base(context)
+		{
+		}
+	}
+}
